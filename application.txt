@@ -1,1 +1,5 @@
-app
+applications
+lotto
+option
+credit
+transfer
