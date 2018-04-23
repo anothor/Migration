@@ -2,4 +2,23 @@ applications
 lotto
 option
 credit
+
 transfer
+-id
+-type (topup/withdraw)
+-user_id
+-money
+-credit
+-balance
+-by_admin
+-verify (call/line/email/sms)
+-bank_transfer (from-to)
+-timestamps
+
+summary
+-id
+-app_key
+-deposit
+-withdraw
+-diff
+-timestamps
