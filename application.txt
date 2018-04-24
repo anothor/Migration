@@ -8,11 +8,11 @@ transfer
 -type (topup/withdraw)
 -user_id
 -money
--credit
--balance
+-to_bank
+-from_bank
+-status (request, panding, completed)
+-verify (code)
 -by_admin
--verify (call/line/email/sms)
--bank_transfer (from-to)
 -timestamps
 
 summary
@@ -22,3 +22,5 @@ summary
 -withdraw
 -diff
 -timestamps
+
+reward
